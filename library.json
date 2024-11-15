@@ -1,0 +1,16 @@
+{
+    "name": "CharacterLib",
+    "keywords": "7Segment Display",
+    "description": "Character Library for 7Seg on Arduino Uno",
+    "repository":
+    {
+      "type": "git",
+      "url": "https://github.com/CalvinSteele/CharacterLib"
+    },
+    "frameworks": "arduino",
+    "platforms":
+    [
+      "atmelavr"
+    ]
+  }
+  
