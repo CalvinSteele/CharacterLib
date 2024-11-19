@@ -6,54 +6,50 @@
 
 class characterLib {
   public:
-    const uint8_t A;
-    const uint8_t C;
-    const uint8_t E;
-    const uint8_t F;
-    const uint8_t G;
-    const uint8_t H;
-    const uint8_t I;
-    const uint8_t L;
-    const uint8_t O;
-    const uint8_t P;
-    const uint8_t S;
-    const uint8_t U;
-    const uint8_t b;
-    const uint8_t c;
-    const uint8_t d;
-    const uint8_t h;
-    const uint8_t i;
-    const uint8_t l;
-    const uint8_t n;
-    const uint8_t o;
-    const uint8_t r;
-    const uint8_t t;
-    const uint8_t u;
-    const uint8_t zero;
-    const uint8_t one;
-    const uint8_t two;
-    const uint8_t three;
-    const uint8_t four;
-    const uint8_t five;
-    const uint8_t six;
-    const uint8_t seven;
-    const uint8_t eight;
-    const uint8_t nine;
-    const uint8_t dot;
-    const uint8_t none;
+    characterLib();
+    void trueWrite(uint8_t *, int);
+    void writeToDisplay(uint8_t *,int);
+    static constexpr uint8_t dataPin;
+    static constexpr uint8_t latchPin;
+    static constexpr uint8_t clockPin;
+    static constexpr uint8_t A;
+    static constexpr uint8_t C;
+    static constexpr uint8_t E;
+    static constexpr uint8_t F;
+    static constexpr uint8_t G;
+    static constexpr uint8_t H;
+    static constexpr uint8_t I;
+    static constexpr uint8_t L;
+    static constexpr uint8_t O;
+    static constexpr uint8_t P;
+    static constexpr uint8_t S;
+    static constexpr uint8_t U;
+    static constexpr uint8_t b;
+    static constexpr uint8_t c;
+    static constexpr uint8_t d;
+    static constexpr uint8_t h;
+    static constexpr uint8_t i;
+    static constexpr uint8_t l;
+    static constexpr uint8_t n;
+    static constexpr uint8_t o;
+    static constexpr uint8_t r;
+    static constexpr uint8_t t;
+    static constexpr uint8_t u;
+    static constexpr uint8_t zero;
+    static constexpr uint8_t one;
+    static constexpr uint8_t two;
+    static constexpr uint8_t three;
+    static constexpr uint8_t four;
+    static constexpr uint8_t five;
+    static constexpr uint8_t six;
+    static constexpr uint8_t seven;
+    static constexpr uint8_t eight;
+    static constexpr uint8_t nine;
+    static constexpr uint8_t dot;
+    static constexpr uint8_t none;
 
-    const uint8_t mt[5];
 
-    const uint8_t segment[5];
-
-    void trueWrite(uint8_t info, int Segment);
-    void writeToDisplay(uint8_t *textToShow,int size);
-
-
-  private:
-    const int dataPin;
-    const int latchPin;
-    const int clockPin;
+    static constexpr uint8_t segment[];
 };
 
 #endif
