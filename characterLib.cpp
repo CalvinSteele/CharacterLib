@@ -60,5 +60,3 @@ void characterLib::writeToDisplay(uint8_t *textToShow,int size)
       trueWrite(textToShow[q], q+1);
    } 
 }
-
-
